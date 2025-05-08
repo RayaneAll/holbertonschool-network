@@ -1,115 +1,31 @@
-# holbertonschool-network
+# Computer Networks
 
-## Curriculum
-**[C#25] Foundations v2 - Part 3**  
-**Average:** 99.07%  
-**Project Badge:** Networking basics #0  
-**Level:** Novice  
-**By:** Sylvain Kalache  
-**Weight:** 1  
+Computer networks play a crucial role in the modern world, enabling communication and resource sharing between different systems. This document provides a general introduction to the fundamental concepts of networks.
 
-Your score will be updated as you progress.
+## What is a Computer Network?
 
----
+A computer network is a collection of computers and other devices connected to exchange data. These connections can be established through cables, radio waves, or other communication technologies.
 
-## Description
-This project introduces the basics of networking, focusing on key concepts such as the OSI model, IP addresses, TCP/UDP protocols, and more. It includes both theoretical and practical tasks to solidify your understanding of networking fundamentals.
+## Types of Networks
 
----
+1. **LAN (Local Area Network)**: A local network, typically confined to a small geographical area such as an office or home.
+2. **WAN (Wide Area Network)**: A wide network that spans large distances, such as the Internet.
+3. **MAN (Metropolitan Area Network)**: A metropolitan network that covers a city or region.
+4. **PAN (Personal Area Network)**: A personal network used to connect individual devices like smartphones or smartwatches.
 
-## Resources
-Read or watch:
-- [OSI model](https://en.wikipedia.org/wiki/OSI_model)
-- Different types of network
-- LAN network
-- WAN network
-- Internet
-- MAC address
-- What is an IP address
-- Private and public address
-- IPv4 and IPv6
-- Localhost
-- TCP and UDP
-- [TCP/UDP ports List](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- What is ping / ICMP
-- Positional parameters
+## Network Components
 
-**man or help:**
-- `netstat`
-- `ping`
+- **Routers**: Direct data packets between networks.
+- **Switches**: Connect devices within a network and manage data traffic.
+- **Access Points**: Enable wireless devices to connect to a network.
+- **Cables and Connectors**: Provide physical connections between devices.
+- **Network Interface Cards (NICs)**: Allow devices to connect to a network.
 
----
+## Importance of Networks
 
-## Learning Objectives
-By the end of this project, you should be able to explain the following concepts without external help:
+Computer networks are essential for:
+- Sharing resources such as files, printers, and internet connections.
+- Enabling communication through emails, messaging, and video calls.
+- Supporting business operations and cloud-based services.
 
-### OSI Model
-- What it is
-- How many layers it has
-- How it is organized
-
-### Networking Basics
-- What is a LAN and its typical usage and size
-- What is a WAN and its typical usage and size
-- What is the Internet
-
-### IP Addressing
-- Types of IP addresses (private and public)
-- What is localhost
-- What is a subnet
-- Why IPv6 was created
-
-### TCP/UDP Protocols
-- Differences between TCP and UDP
-- Commonly used ports (SSH, HTTP, HTTPS)
-- Tools/protocols to check network connectivity
-
----
-
-## Requirements
-### Bash Script Files
-- Allowed editors: `vi`, `vim`, `emacs`
-- Must be interpreted on Ubuntu 22.04
-- Files should end with a new line
-- Scripts must be executable
-- Must pass `shellcheck` without errors
-- First line: `#!/usr/bin/env bash`
-- Second line: A comment explaining the script's purpose
-
-### Answer Files
-- For multiple-choice questions, provide the correct answer number in a new line.
-
----
-
-## Tasks
-### 0. OSI Model
-- Understand the OSI model and its layers.
-- **File:** `0-OSI_model`
-
-### 1. Types of Network
-- Differentiate between LAN, WAN, and Internet.
-- **File:** `1-types_of_network`
-
-### 2. MAC and IP Address
-- Learn the purpose of MAC and IP addresses.
-- **File:** `2-MAC_and_IP_address`
-
-### 3. UDP and TCP
-- Compare TCP and UDP protocols.
-- **File:** `3-UDP_and_TCP`
-
-### 4. TCP and UDP Ports
-- Memorize common port numbers and write a script to display listening ports.
-- **File:** `4-TCP_and_UDP_ports`
-
-### 5. Is the Host on the Network
-- Write a script to ping an IP address and check network connectivity.
-- **File:** `5-is_the_host_on_the_network`
-
----
-
-## Repository
-- **GitHub Repository:** `holbertonschool-network`
-- **Directory:** `basics_0`
-
----
+Understanding the basics of computer networks is fundamental for anyone interested in technology or IT infrastructure.
